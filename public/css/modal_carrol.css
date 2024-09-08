@@ -1,0 +1,85 @@
+.container_modal_card,.container_close_card{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 10px;
+}
+img{
+    object-fit: cover;
+}
+.producto_modal_carro img{
+width: 130px;
+}
+.producto_modal_carro p{
+    width: 170px;
+    text-align: justify;
+    font-size: 12px;
+}
+.container_fondo_card{
+background: rgb(241, 242, 241);
+width: 100%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+max-height: 70vh;
+
+}
+.container_fondo_card img{
+    width: 160px;
+    margin: 4px;
+    border-radius: 3px;
+    margin: 4px;
+    padding: 10px;
+}
+.container_close_card img{
+    width: 20px;
+}
+.container_close_card{
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+.btnclose{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    
+}
+.container_fondo_card {
+position: fixed;
+display: none;
+}
+.producto_modal_carro{
+    padding: 10px;
+    margin: 2px;
+background: rgb(86, 85, 85);
+}
+.producto_modal_carro:hover{
+
+    background: rgba(0, 0, 0,0.5);
+    box-shadow: 2px 2px 2px rgb(7, 71, 236);
+
+}
+.producto_modal_carro button{
+    width: 180px;
+    padding: 6px;
+    border-radius: 6px;
+}
+.producto_modal_carro button:hover{
+    box-shadow: 3px 3px 3px  black;
+transition: 0.50s;
+background: rgb(56, 56, 167);
+transition: 0.5s;
+}
+.container_fondo_card h1{
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+}
+#shopping{
+    cursor: pointer;
+    font-size: 25px;
+}
+/* este es para la modal alert */
