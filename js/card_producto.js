@@ -27,7 +27,7 @@ producto_modal_carro.append(pagar)
  total_pago.classList.add("total-pago")
  total_pago.textContent = `Total a pagar: $${data.precio}`
 
- 
+ producto_modal_carro.append(total_pago)
 });
 
 
