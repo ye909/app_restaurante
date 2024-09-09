@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded",()=>{
     
 
 const container_producto_principal = document.getElementById("container_producto_principal")
-
-ploductos.forEach((element)=>{
 agregar_producto_carro= []
+ploductos.forEach((element)=>{
+
 
  const producto_principal = document.createElement("div")
  producto_principal.classList.add("producto_principal")
@@ -38,21 +38,28 @@ agregar_producto_carro= []
 
  
 const btnboton_agregar= document.createElement("button")
+btnboton_agregar.classList.add("btnboton_agregar")
+btnboton_agregar.setAttribute("id","btnboton_agregar")
 btnboton_agregar.innerText="agregar"
 
 
 producto_principal.append(btnboton_agregar)
 
-console.log(producto_principal)
-
-agregar_producto_carro.push({
-    nombre: element.nombre,
-    precio: element.precio,
-    descripcion: element.descripcion1,
-    img:element.img,
-    cantidad:element.cantidad
-
+btnboton_agregar.addEventListener("click",()=>{
+    agregar_producto_carro.push({
+        id:element.id,
+        nombre: element.nombre,
+        precio: element.precio,
+        descripcion: element.descripcion1,
+        img:element.img,
+        cantidad:element.cantidad
+    
+    })
+    console.log(agregar_producto_carro)
 })
+
+
+
 
 })
 
