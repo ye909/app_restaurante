@@ -1,3 +1,10 @@
+
+.container_close_card img{
+    width: 20px;
+}
+body{
+background: yellow;
+}
 .container_modal_card,.container_close_card{
 display: flex;
 justify-content: space-between;
@@ -9,48 +16,41 @@ img{
     object-fit: cover;
 }
 .producto_modal_carro img{
-width: 130px;
-}
+    width: 160px;
+    }
+
+
+    .container_fondo_card{
+        background: rgba(241, 242, 241,0.4);
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-height: 100%;
+        position: fixed; 
+
+        }
+        .body_carro img{
+            width: 160px;
+            margin: 4px;
+            border-radius: 3px;
+            margin: 4px;
+            padding: 10px;
+        }
+
+/* 
+
 .producto_modal_carro p{
     width: 170px;
     text-align: justify;
     font-size: 12px;
 }
-.container_fondo_card{
-background: rgb(241, 242, 241);
-width: 100%;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-max-height: 70vh;
 
-}
-.container_fondo_card img{
-    width: 160px;
-    margin: 4px;
-    border-radius: 3px;
-    margin: 4px;
-    padding: 10px;
-}
-.container_close_card img{
-    width: 20px;
-}
-.container_close_card{
-    border-bottom: 1px solid black;
-    margin: 0;
-    padding: 0;
-}
-.btnclose{
-    font-size: 25px;
-    color: red;
-    cursor: pointer;
-    
-}
-.container_fondo_card {
-position: fixed;
-/* display: none; */
-}
+
+
+
+
 .producto_modal_carro{
     padding: 10px;
     margin: 2px;
@@ -62,11 +62,7 @@ background: rgb(86, 85, 85);
     box-shadow: 2px 2px 2px rgb(7, 71, 236);
 
 }
-.producto_modal_carro button{
-    width: 180px;
-    padding: 6px;
-    border-radius: 6px;
-}
+
 .producto_modal_carro button:hover{
     box-shadow: 3px 3px 3px  black;
 transition: 0.50s;
@@ -78,8 +74,25 @@ transition: 0.5s;
     font-size: 15px;
     padding: 2px;
 }
-#shopping{
+ */
+ .container_close_card{
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+.btnclose{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    
+}
+ #shopping{
     cursor: pointer;
     font-size: 25px;
+}
+.container_fondo_card button{
+    width: 120px;
+    padding: 3px;
+    border-radius: 6px;
 }
 /* este es para la modal alert */

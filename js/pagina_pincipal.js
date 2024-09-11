@@ -69,3 +69,28 @@ btnboton_agregar.addEventListener("click",()=>{
 
 
 
+
+// const repeat =agregar_producto_carro.some((repeatProduct)=>repeatProduct == element.id)
+// if (repeat) {
+//     agregar_producto_carro.map((prod)=>{
+// if (prod.id === element.id) {
+//     prod.cantidad++;
+// }
+//     })
+    
+// }else{
+//     btnboton_agregar.addEventListener("click",()=>{
+//         agregar_producto_carro.push({
+//             id:element.id,
+//             nombre: element.nombre,
+//             precio: element.precio,
+//             descripcion: element.descripcion1,
+//             img:element.img,
+//             cantidad:element.cantidad
+        
+//         })
+//         console.log(agregar_producto_carro)
+//     })
+     
+// }
+

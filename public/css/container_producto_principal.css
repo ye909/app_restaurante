@@ -47,7 +47,8 @@ span{
 .texto_motivacion{
 background-image: url(../imagen/fondo.png);
 background-size: cover;
-height: 23vh;
+height: 33vh;
+background-repeat: no-repeat;
 
 }
 .texto{
