@@ -1,0 +1,49 @@
+body{
+    background: rgb(184, 178, 178);   
+}
+
+.container_regitro{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+
+}
+form{
+    background:black;
+    width: 900px;
+    padding: 20px;
+  color: white;
+  box-shadow: blue 4px 2px 2px 2px ,blue 4px 2px 2px 2px ,blue 4px 2px 2px 2px,blue 4px 2px 2px 2px  ;
+ border-radius: 4px;
+}
+.nombres_apellido,.contacto_ciudad,.direccion,.Contraseña{ 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+h1{
+    text-align: center;
+}
+.contaier_btnbotones{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 10px;
+    
+}
+label{
+    font-size: 20px;
+    
+}
+input{
+    padding: 10px;
+    width: 400px;
+    margin: 5px;
+}
+:is(button){
+    padding: 6px;
+    width: 160px;
+    margin: 10px;
+}

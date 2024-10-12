@@ -1,0 +1,156 @@
+/* este es para la modal de carro */
+.container{
+    padding: 15px;
+    margin-bottom: 30px;
+    }
+
+    .carro_modal nav{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+       
+     }
+ 
+
+.titulos_card{
+    display: flex;
+    justify-content: space-between;
+}
+.titulos_card li{
+    margin: 10px;
+    font-size: 10px;
+    list-style: none;
+  
+}
+.container_titulos_card{
+    background: red;
+  
+  padding: 10px;
+  margin: 5px;
+height: 20vh;
+padding: 20px;
+}
+.texto_titulo_card{
+    text-align: center;
+}
+
+.container_titulos_card{
+    display: none;
+    
+}
+
+/* .fa-cart-shopping{
+    position: fixed;
+    z-index: 2;
+    
+  } */
+
+
+.btnbotones_card{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+  .btnvaciar,.btneditar{
+    width: 100px;
+    border-radius: 6px ;
+    }
+.btnbotones_card button:hover{
+        background: rgba(67, 67, 192, 0.6);
+        transition: all 0.5s;
+    }
+/*
+  
+
+
+button:hover{
+        box-shadow:  3px 3px 4px black;
+    } 
+     ul{
+    position: absolute;
+
+.titulos_card{
+    display: none;
+    
+}
+
+
+ 
+
+
+ 
+
+.close{
+   
+    justify-content: flex-end;
+    margin: 226px 1100px 3px ;
+    position: fixed;
+
+position: fixed;
+}
+.modal_close img{
+    object-fit: cover;
+}
+.container_modal_carro{
+
+    background: rgba(17, 17, 17,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 1px;
+    display: none;
+    
+}
+
+
+h1,h2{
+    text-align: center;
+    padding: 4px;   
+}
+h1{
+    font-size: 20px;
+   
+}
+h2{
+    font-size: 14px;
+}
+
+
+.total_carro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+ este es para la modal de albertencia 
+
+.container_modal_carro_validacion_close{
+
+    background: rgba(17, 17, 17,0.5);
+    position: fixed;
+    top: -100px;
+    bottom: 0px;
+    left: 0;
+right: 0;
+display: none;
+text-align: center;
+}
+.container_modal_carro_validacion_close p{
+    color: white;
+}
+.container_modal_carro_validacion_close{
+   
+    width: 50%;
+    height: 17vh;
+margin: 200px 300px 0px ;
+border-radius: 4px;
+box-shadow: black 4px 4px ;
+}
+.close,.fa-location-dot,.fa-instagram{
+    font-size: 25px;
+    color: red;
+    
+}
+ */

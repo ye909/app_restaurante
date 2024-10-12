@@ -1,0 +1,15 @@
+body{
+    background: rgb(184, 178, 178);   
+}
+
+.container_regitro{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+form{
+    background:black;
+    width: 70%;
+}
+

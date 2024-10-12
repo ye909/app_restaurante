@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container_producto_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+  padding: 10px;
+}
+.producto_principal{
+background: rgba(56, 56, 56, 0.5);
+width: 200px;
+padding: 6px;
+margin: 4px 4px;
+}
+img{
+    object-fit: cover;
+}
+.producto_principal img{
+    width: 160px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+.producto_principal img,.producto_principal:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.bienvenida{
+    text-align: center;
+}
+.producto_principal h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* .producto_principal p{
+font-size: 10px;
+text-align: center;
+padding: 5px;
+}
+*/
+
+/* .descripcion1{
+    font-size: 14px;
+    margin: 10px;
+}  */
+  .producto_principal span{
+    text-wrap: balance;
+  }
+.producto_principal:hover{
+    box-shadow: 2px 2px 2px rgb(7, 71, 236);
+    transition: 2s;
+}
+.texto_motivacion{
+background-image: url(../imagen/fondo.png);
+background-size: cover;
+height: 40vh;
+background-repeat: no-repeat;
+
+}
+
+.texto_motivacion::after{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+      content:".texto_motivac";
+      color:blue;
+      font-weight: bold;
+      font-size: 20px;
+}
+
+.texto p{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+ .container_producto_principal button{
+    width: 194px;
+    padding: 7px;
+}
+.texto img{
+    width: 100%;
+    height: 50vh;
+}
+
+
+.info_personas {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 1;
+}
+.info_personas img{
+    width: 90px;
+    height: 40px;
+}

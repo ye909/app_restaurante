@@ -1,0 +1,6 @@
+body{
+    background-image:url(/public/imagen/fondo_card.jpg);
+    background-repeat:no-repeat;
+    box-sizing:border-box;
+    background-attachment: fixed;
+}

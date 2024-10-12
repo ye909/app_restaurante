@@ -1,0 +1,119 @@
+
+
+/* .close{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.container_close_card img{
+    width: 20px;
+} */
+
+
+
+
+
+
+/* modal */
+.container_modal_card{
+    display: none;
+    position: fixed;
+}
+.modal-body{
+    background:blue;
+}
+.descripcion_modal h3{
+
+    text-align: center;
+}
+.modal-body {
+    text-align: center;
+    }
+.img_modal{
+    object-fit: cover;
+    width: 90px;
+    border-radius:4px;
+}
+/* 
+
+body{
+background: yellow;
+}
+.container_modal_card,.container_close_card{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 10px;
+}
+
+img{
+    object-fit: cover;
+}
+.producto_modal_carro img{
+    width: 160px;
+    }
+
+
+    .container_fondo_card{
+        background: rgba(241, 242, 241,0.4);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-height: 10%;
+        position: fixed; 
+        margin: 4px;
+        
+display: none;
+        }
+        .body_carro img{
+            width: 160px;
+            margin: 4px;
+            border-radius: 3px;
+            margin: 4px;
+            padding: 10px;
+        }
+        .producto_modal_carro p{
+            width: 170px;
+            text-align: justify;
+            font-size: 12px;
+        }
+        .producto_modal_carro{
+            padding: 10px;
+            margin: 2px;
+        background: rgb(86, 85, 85);
+        }
+
+
+
+ .container_close_card{
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+.btnclose{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    
+}
+ #shopping{
+    cursor: pointer;
+    font-size: 25px;
+}
+.container_fondo_card button{
+    width: 188px;
+    padding: 3px;
+    border-radius: 6px;
+    padding: 6px;
+
+}
+
+.btnboton_paga:hover{
+    box-shadow: 3px 3px 3px  black;
+transition: 0.50s;
+
+
+} */
+/* este es para la modal alert */

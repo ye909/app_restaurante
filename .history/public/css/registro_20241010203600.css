@@ -1,0 +1,14 @@
+body{
+    background: black;   
+}
+
+.container_regitro{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 70px;
+background: rgb(3, 39, 245);
+
+height: 70vh;
+}
+

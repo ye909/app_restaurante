@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container_menu_nav {
+    position: fixed;
+    width: 100%;
+    top: -70px; /* Oculta el menú inicialmente */
+    background-color: #333;
+    transition: top 0.3s; /* Transición suave al mostrar/ocultar */
+    z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+}
+
+header.show {
+    top: 0; /* Muestra el menú al hacer scroll */
+}

@@ -1,0 +1,14 @@
+
+body{
+    background-image: url(../imagen/fondo_card.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.container_menu_banderas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
