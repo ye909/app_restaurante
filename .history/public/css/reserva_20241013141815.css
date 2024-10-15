@@ -1,0 +1,40 @@
+body{
+    background-image:url(/public/imagen/fondo_card.jpg);
+    background-repeat:no-repeat;
+    box-sizing:border-box;
+    background-attachment: fixed;
+    background-size:100%;
+}
+h1{
+    text-align: center;
+    color:yellow;
+    font-size: 20px;
+    padding: 10px;
+}
+.container_fondo,.btnbotones{
+    display: flex;
+    justify-content: space-around;
+}
+.container_fondo img{
+    width: 50%;
+    height: 90vh;
+    padding: 10px;
+}
+.btnbotones{
+    padding: 10px;
+}
+button{
+    width: 120px;
+    padding: 6px;
+}
+form{
+    width: 90%;
+    background:blue;
+    padding: 20px;
+    margin: 10px;
+}
+input,select{
+    width:100%;
+    padding: 6px;
+}
+{

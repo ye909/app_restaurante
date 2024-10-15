@@ -1,0 +1,36 @@
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0px 60px;
+    width: 60%;
+}
+.texto_parafo{
+    color: yellow;
+    text-shadow: rgb(3, 1, 17) 4px 2px 2px ;
+}
+.container_reserva{
+    text-align: center;
+   
+}
+.ventana_modal{
+    text-align: center;
+    background:rgba(4, 4, 240,0.3);
+padding: 10px;
+margin: 10px;
+}
+.ventana_modal p{
+    color:white;
+    font-size: 16px;
+}
+.modal_titulo{
+    color:yellow;
+    padding: 10px;
+}
+.ventana_modal button{
+    width: 60px;
+   
+}
+

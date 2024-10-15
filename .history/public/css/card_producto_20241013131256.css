@@ -1,0 +1,10 @@
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.texto_parafo{
+    color: yellow;
+    text-shadow: rgb(41, 6, 241) 2px 2px 2px ;
+}

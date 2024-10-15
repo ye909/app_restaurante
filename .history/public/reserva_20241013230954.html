@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/reserva.css">
+    <title>Reserva en Restaurante</title>
+</head>
+
+<body>
+    <div class="container_fondo">
+        
+           
+            
+            <p> <img src="../public/imagen/aroz_paisa.PNG" alt=""><br>
+                ¡Gracias por elegir nuestro restaurante para
+                tu próxima comida especial! Estamos emocionados de
+                recibirte y brindarte una experiencia gastronómica excepcional.
+                Nos esforzamos por ofrecer platos deliciosos preparados con
+                ingredientes frescos y servidos con atención al detalle.
+                Tu reserva nos ayuda a garantizar que tengas una experiencia
+                memorable. ¡Esperamos verte pronto y
+                que disfrutes de una velada inolvidable con nosotros!
+                <br> <br> <br>
+                <span class="info" id="info"></span>
+            </p>
+            <br>
+         
+
+        <div class="container_reserva">
+            <h1> ES HORA RESERVAR YA</h1> 
+            <form id="reservaForm">
+              
+                <div class="container_campos">
+                    <label for="nombre">Nombre Completo<br>
+                        <input type="text" id="nombre"  required>
+                    </label>
+                    <br>
+                    <label for="">Telefono  <br>
+                        <input type="number" required>
+                    </label> <br>
+                    <!-- <label for="telefono">Teléfono:</label><br>
+                    <input type="number" id="telefono" name="telefono" > -->
+                </div>
+                <!-- <br>
+                <div class="container_campos">
+                    <label for="email">Email:<br>
+                        <input type="email" id="email" name="email" required>
+                    </label>
+                    <br>
+                    <label for="fecha">Fecha de Reserva:<br>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </label>
+                    <br>
+                </div>
+                <div class="container_campos">
+                    <label for="hora">Hora de Reserva:<br>
+                        <input type="time" id="hora" name="hora" required>
+                    </label>
+                    <br>
+                    <label for="personas">Número de Personas:
+                        <input type="number" id="personas" name="personas" required>
+                    </label>
+                    <br>
+                </div>
+                <br>--> 
+             
+                <br>
+                <label for="">Pago </label><br>
+                <select name="" id="">
+                    <option value="">Selecione forma de pago</option>
+                    <option value="">Efectivo</option>
+                    <option value="">Nequi</option>
+                    <option value="">Targeta de credito</option>
+                    <option value="">Targeta de debito</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <textarea name="" id="" cols="60" rows="6"></textarea>
+                <div class="btnbotones">
+                    <button type="submit" id="submitBtn" disabled>Enviar Reserva</button>
+                    <button type="reset">Limpiar</button>
+                </div> 
+
+            </form>
+
+        </div>
+    </div>
+    <script src="../js/reserva.js"></script>
+</body>
+
+</html>

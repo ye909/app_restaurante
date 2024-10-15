@@ -1,0 +1,29 @@
+body{
+    background-image:url(/public/imagen/fondo_card.jpg);
+    background-repeat:no-repeat;
+    box-sizing:border-box;
+    background-attachment: fixed;
+    background-size:100%;
+}
+h1{
+    text-align: center;
+    color:yellow;
+}
+.container_fondo{
+    display: flex;
+    justify-content: space-around;
+}
+.container_fondo img{
+    width: 50%;
+    height: 90vh;
+    padding: 10px;
+}
+.container_reserva{
+    text-align: center;
+    background:blue;
+    margin: 20px;
+}
+form{
+    width: 50%;
+   
+}

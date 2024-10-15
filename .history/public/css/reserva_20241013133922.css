@@ -1,0 +1,13 @@
+body{
+    background-image:url(/public/imagen/fondo_card.jpg);
+    background-repeat:no-repeat;
+    box-sizing:border-box;
+    background-attachment: fixed;
+    background-size:100%;
+}
+h1{
+    text-align: center;
+    color:yellow;
+}
+
+

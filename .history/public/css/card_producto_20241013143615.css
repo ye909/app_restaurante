@@ -1,0 +1,20 @@
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0px 60px;
+    width: 60%;
+}
+.texto_parafo{
+    color: yellow;
+    text-shadow: rgb(3, 1, 17) 4px 2px 2px ;
+}
+.container_reserva{
+    text-align: center;
+   
+}
+.ventana_modal{
+    background:blue;
+}
