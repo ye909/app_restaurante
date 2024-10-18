@@ -3,12 +3,12 @@ const conexion = express.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'bd_crud'
+    database: 'bd_ventas'
 
 })
 
 conexion.connect((error)=>{
-
+("SELECT * FROM usuario")
     if (error) {
         throw error
     } 

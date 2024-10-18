@@ -52,7 +52,9 @@ h1{
     color:white;
     
 }
-
+.mostrar{
+    display: none;
+}
 .mostrar{
     display: inline;
 }

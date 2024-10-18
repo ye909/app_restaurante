@@ -17,14 +17,10 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    
     flex-wrap: wrap;
 
 }
-.container_img{
-    display: flex;
- justify-content: space-between;
- text-wrap: balance;
- }
 img{
     width:160px;
     margin:0px  10px ;
@@ -39,10 +35,10 @@ img:hover{
     background: rgba(0, 0, 0,0.3);
     margin: 10px;
     border-radius: 10px;
-    width: 30%;
+    width: 80%;
 }
 p{
-    width: 90%;
+    width: 34%;
 }
 h1{
     color: yellow;
@@ -51,10 +47,6 @@ h1{
 .ver_menu{
     color:white;
     
-}
-
-.mostrar{
-    display: inline;
 }
  /* 
 

@@ -42,7 +42,7 @@ img:hover{
     width: 30%;
 }
 p{
-    width: 90%;
+    width: 50%;
 }
 h1{
     color: yellow;
@@ -51,10 +51,6 @@ h1{
 .ver_menu{
     color:white;
     
-}
-
-.mostrar{
-    display: inline;
 }
  /* 
 

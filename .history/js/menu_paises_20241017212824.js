@@ -1,0 +1,1 @@
+const ver_menu = document.getElementById("ver_menu")

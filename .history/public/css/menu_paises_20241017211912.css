@@ -12,7 +12,7 @@ body{
     background-size: 100%;
  
 }
-.container_menu_banderas{
+.container_menu_banderas,.container_img{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,11 +20,6 @@ body{
     flex-wrap: wrap;
 
 }
-.container_img{
-    display: flex;
- justify-content: space-between;
- text-wrap: balance;
- }
 img{
     width:160px;
     margin:0px  10px ;
@@ -42,7 +37,7 @@ img:hover{
     width: 30%;
 }
 p{
-    width: 90%;
+    width: 34%;
 }
 h1{
     color: yellow;
@@ -51,10 +46,6 @@ h1{
 .ver_menu{
     color:white;
     
-}
-
-.mostrar{
-    display: inline;
 }
  /* 
 
