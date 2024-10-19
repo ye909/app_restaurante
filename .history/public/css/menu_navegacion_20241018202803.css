@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ul,.menu_ini_reg{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  
+} */
+nav{
+ background:red;
+}
+/* nav{
+   
+    background:rgba(15, 15, 12,0.3);
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+.menu_ini_reg{
+    margin: 4px;
+}
+li{
+    font-size: 20px;
+    list-style: none;
+
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+li:hover{
+    transition: 1s;
+    border-bottom: 2px solid yellow;
+   
+    
+}

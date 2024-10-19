@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition:1s;
+}
+html{
+    object-fit: cover;
+    background-image: url(../imagen/fondo_card.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    background-size: 100%;
+}
+img{
+    width:160px;
+    margin:0px  10px ;
+    text-align: center;
+}
+h1{
+    color: yellow;
+    font-size: 20px;
+}
+.container_img p{
+    width: 60%;  
+}
+.mostrar{
+    display: none;
+   
+}
+.container_img{
+    padding: 10px;
+    background: rgba(0, 0, 0,0.3);
+    margin: 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+a{
+    text-align:center;
+}
+/* .container_menu_banderas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+} 
+.container_img{
+    display: flex;
+ justify-content: space-between;
+ text-wrap: balance;
+ }*/
+/* 
+img:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+
+
+.ver_menu{
+    color:white;
+    
+}
+
+.mostrar{
+    display: inline;
+}
+ /* 
+
+.ver_menu button{
+    width: 130px;
+}
+
+ button{
+    width: 175px;
+    background:   rgb(5, 52, 173);
+  
+    padding: 6px;
+    border-radius: 10px;
+    
+    animation: btn 2s 2;
+}
+button:hover{
+    box-shadow:   rgb(7, 71, 236)2px 2px 2px 2px,2px 2px 2px 2px, 2px 2px 2px 2px;
+    border: none;
+}
+ @keyframes btn{
+    10%{width: 1px;}
+    20%{width: 2px;}
+} */ 

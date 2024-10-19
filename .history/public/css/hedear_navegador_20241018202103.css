@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder{
+    color: black;
+}
+input:hover{
+    border : none;
+    border-bottom : 1px solid #2b2b2b;
+   
+}
+img{
+    object-fit: cover;
+}
+.shopping{
+    font-size: 30px;
+}
+.container_header_card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px 1px;
+    margin: 4px;
+}
+.container_header_card img{
+    width: 60px;
+    
+}
+.fa-magnifying-glass,.fa-cart-shopping{
+    cursor: pointer;
+}

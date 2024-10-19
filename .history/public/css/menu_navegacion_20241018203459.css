@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+display: flex;
+justify-content: space-between;
+text-align: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+li{
+    font-size: 20px;
+    list-style: none;
+margin: 10px;
+}
+/* nav{
+   
+    background:rgba(15, 15, 12,0.3);
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.menu_ini_reg{
+    margin: 4px;
+}    
+*/
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+li:hover{
+    transition: 1s;
+    border-bottom: 2px solid yellow;
+   
+    
+}
