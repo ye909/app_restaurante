@@ -1,0 +1,67 @@
+t-items{
+     display: none;
+}
+.card {
+  width: 15%;
+  height: 20vh;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+  padding: 10px;
+  
+}
+.carro{
+  color:yellow;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.cart-view,.menu-view{
+  display: none;
+}
+.card button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.cart-total {
+  text-align: right;
+  margin: 20px;
+}
+
+
+.cart-total{
+  font-size: 20px;
+  color:blue;
+}
+button {
+  width: 270px;
+  padding: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 20px;
+  background: transparent;
+  color: blue;
+  font-size: 18px;
+}
+button:hover {
+  border: none;
+  background: #0606f8fd;
+  color: black;
+  box-shadow: rgb(7, 71, 236) 2px 2px 2px, rgb(7, 71, 236) 2px 2px 2px,
+    rgb(7, 71, 236) 2px 2px 2px, rgb(7, 71, 236) 2px 2px 2px;
+}

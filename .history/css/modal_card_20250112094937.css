@@ -1,0 +1,88 @@
+t-items{
+     display: none;
+}
+.menu-items{
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 12, 12, 0.7);
+  position: absolute;
+}
+.card {
+display: inline-block;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 20px;
+
+}
+/* .menu-view img{
+  width: 1%;
+}
+.cart-view img{
+  width: 6000px;
+} */
+.card {
+  width: 15%;
+  height: 50vh;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: rgb(8, 4, 247) 1px 1px 1px 3px ;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+
+}
+.cart-view,.menu-view{
+  display: none;
+}
+
+.carro{
+  color:yellow;
+}
+
+.cart-total {
+  text-align: right;
+  margin: 20px;
+}
+
+
+.cart-total{
+  font-size: 20px;
+  color:blue;
+}
+button {
+  width: 270px;
+  padding: 10px;
+  
+  /* margin: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 20px ;
+  background: rgba(247, 247, 248, 0.568) ;
+  color: blue;
+  font-size: 20px; */
+}
+/* button:hover {
+  border: none;
+  background: #0606f8fd;
+  color: black;
+  box-shadow: rgb(7, 71, 236) 2px 2px 2px, rgb(7, 71, 236) 2px 2px 2px,
+    rgb(7, 71, 236) 2px 2px 2px, rgb(7, 71, 236) 2px 2px 2px;
+} 
+     .card button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+} */

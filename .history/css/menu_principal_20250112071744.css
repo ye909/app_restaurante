@@ -1,0 +1,74 @@
+:scope{
+    padding: 0%;
+    margin: 0%;
+    overflow: scroll;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: url(../public/imagen/janos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: auto;
+  } 
+  .container_card_persona {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .container_persona {
+    width: 10%;
+    background: rgba(26, 25, 25, 0.6);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    height: auto;
+    box-shadow: rgb(8, 8, 8) 1px 2px 2px 2px;
+  }
+  .container_persona img {
+    object-fit: cover;
+    width: 100%;
+    margin-top: -30px;
+    border-radius: 80px;
+    box-shadow: rgb(8, 4, 247) 1px 1px 1px;
+  }
+/*   
+  
+  
+ 
+ 
+
+  
+  h3 {
+    text-align: center;
+    color: yellow;
+  }
+  .container_persona p {
+    padding: 6px;
+    font-size: 18px;
+    list-style: 1.4;
+  }
+  
+  .quienes-somos {
+    width: 100%;
+    text-align: center;
+    background: rgba(232, 232, 157, 0.4);
+  }
+  .quienes-somos p {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  
+  .text_invitacion {
+    font-size: 25px;
+    line-height: 1.4;
+    width: 99%;
+    text-align: center;
+    background: rgba(232, 232, 157, 0.2); 
+  }
+   */

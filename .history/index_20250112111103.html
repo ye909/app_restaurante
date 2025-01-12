@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="Icon" href="./public/imagen/letra.ico">
+  <link rel="stylesheet" href="/css/menu_principal.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/heder.css">
+  <link rel="stylesheet" href="/css/modal_card.css">
+  <link rel="stylesheet" href="/css/stilo.css">
+  <link rel="stylesheet" href="/css/menu_navegacion.css">
+  <link rel="stylesheet" href="/css/reservar.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="container_header_card">
+      <div class="imagen"><img src="/public/imagen/login.gif" alt=""></div>
+
+      <input type="text" id="buscar" class="buscar" placeholder="Busque sus Platos...">
+      <ul id="productList" class="productList"></ul>
+
+      <div id="cart-btn" class="shopping">🛒</div>
+
+  </header>
+
+
+
+  <h1 class="bienvenida" id="bienvenida">BIENVENIDOS/A</h1>
+  <nav>
+    <ul>
+      <li id="menu-btn"><a href="#">Menu</a></li>
+      
+      <li><a href="./maquetacion/templei/reserva.html" target="_self">Reserva</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#somos">Quiénes Somos</a></li>
+      <li><a href="./maquetacion/templei/login.html" target="_self">Inicio</a></li>
+      <li><a href="./maquetacion/templei/registro.html" target="_self">Registro</a> </li>
+    </ul>
+  </nav>
+ <img src="./public/imagen/rrstaurante1.jpg" alt="" class="imgRestaurante" id="imgRestaurante">
+
+  <main id="menu-view" class="menu-view">
+    <div class="filter-buttons">
+      <button class="filter" data-region="Todos">Todos</button>
+      <button class="filter" data-region="Latinoamérica">Latinoamérica</button>
+      <button class="filter" data-region="Centroamérica">Centroamérica</button>
+      <button class="filter" data-region="Suramérica">Suramérica</button>
+    </div>
+    <div id="menu-items" class="menu-items"></div>
+
+    <audio id="clickSound" src="./public/imagen/audio/mouse_btn3.mp3"></audio>
+  </main>
+
+ 
+  <main id="cart-view" class="cart-view">
+    <h1 class="carro">Carrito de Compras</h1>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-total">
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="back-to-menu">Volver al Menú</button>
+      <button id="Domicilio"> <a href="./maquetacion/templei/domicilio.html"  target="_self">Domicilio</a></button>
+     
+    </div>
+  </main>
+<br>
+  <div class="container_card_persona">
+
+    <article class="container_persona">
+      <img src="./public/imagen/mona.jpg" alt=""><br><br>
+      <h3>Leidi Lorena Lopez Calzado</h3>
+      <p>Soy una apasionada fotógrafa de 28 años,
+         divide su tiempo entre capturar momentos 
+         únicos en sus sesiones de fotos al aire libre
+         y trabajar como diseñadora gráfica freelance </p>
+    </article>
+
+    <article class="container_persona">
+      <img src="./public/imagen/afro.jpg" alt=""><br><br>
+      <h3>Jose ramirez lopez</h3>
+      <p>Emprendedor de 35 años,
+         se dedica a dirigir su propia empresa de 
+         tecnología y innovación, y en su tiempo libre
+          disfruta practicando deportes extremos.
+        </p>
+    </article>
+
+
+    <article class="container_persona">
+      <img src="./public/imagen/indigena.jpg" alt=""><br><br>
+      <h3>Ana Maria Pradro Ramirez</h3>
+      <p>Joven estudiante
+         de 20 años, combina sus estudios de
+          literatura con su pasión 
+        por la escritura creativa y la música.</p>
+    </article>
+
+    <article class="container_persona">
+      <img src="./public/imagen/mestizo.jpg" alt=""><br><br>
+      <h3>Andres Jose morra</h3>
+      <p>experimentado chef de 42 años, 
+        se destaca por su innovadora fusión 
+        de sabores locales e internacionales 
+        en su restaurante de alta cocina.</p>
+    </article>
+
+
+  </div>
+  <p class="text_invitacion"> Los envitamos a que descubra una explosión de sabores en cada bocado. <br>
+    Tu próxima experiencia gastronómica inolvidable te espera.
+  </p>
+  <br> <br>
+
+  <div class="quienes_somos" id="somos">
+    <h1 class="titu_quienson">Quiénes Somos</h1>
+    <p>En <strong>Gostriafromix</strong>, somos un restaurante apasionado por la buena comida y el servicio de calidad.
+      <br>
+      Fundado con el propósito de ofrecer una experiencia gastronómica única, combinamos ingredientes frescos con
+      recetas innovadoras para crear platos que deleitan el paladar. <br>
+      Nuestro equipo está compuesto por chefs experimentados y personal dedicado que trabaja día a día para hacer que
+      cada visita sea inolvidable.
+    </p>
+    <p>Nuestro objetivo es brindarte un ambiente acogedor donde puedas disfrutar de momentos especiales, ya sea con
+      amigos, familiares o en una ocasión especial. Te invitamos a
+      visitarnos y descubrir por qué somos el lugar preferido por los amantes de la buena comida.</p>
+  </div>
+
+  <!-- 
+  
+  <footer>
+    <div class="conataine_footer">
+      <div>
+        <h4>Servicio al ciudadano</h4>
+        <p><span>L</span>ínea directa <br> <br> (601) 2773555</p>
+        <p id="domicilio"><span>S</span>ervicios ha domicilio<br> <br>328866178 <br><br>Dirreccion calle 12# 43-23 sur
+        </p>
+
+      </div>
+
+      <div>
+        <h4>Lineas de atencion</h4>
+        <p><span>E</span>n Bogotá, <br> desde fijo o celular, al <br><br>
+          (601) 307 70 51 <br><br>
+          01 8000 930100 <br><br>
+          <span>D</span>esde celular marca <br><br>
+          #961
+        </p>
+      </div>
+      <div>
+        <h4>Redes</h4>
+        <div><a href=""><i class="fa-brands fa-facebook"> </i></a> Facebook</div>
+        <div><a href=""><i class="fa-brands fa-twitter"></i></a>Twitter</div>
+        <div><a href=""><i class="fa-brands fa-linkedin"></i> </a>Linkedin</div>
+        <div><a href=""><i class="fa-brands fa-instagram"></i></a> Instagram</div>
+      </div>
+      <div>
+        <h4 id="contacto">Contacto</h4>
+        <p><span>D</span>irección Nacional<br><br>
+          <span>C</span>arrera 85K No. 46A-66<br><br>
+          <span>b</span>ogotá D.C., Colombia<br><br>
+          <span>T</span>eléfono administrativo<br><br>
+          (60)1 419 3000
+        </p>
+      </div>
+
+      <div>
+        <h4> Canales de atención</h4>
+        <p><a href="#">Preguntas frecuentes</p></a><br>
+        <p><a href="#">Escríbe tu PQRS</p></a><br>
+        <p><a href="#">Nuestras sedes</p></a>
+      </div>
+    </div>
+  </footer>
+  <div class="container_final">2024 Bogota Colombia D.C</div> -->
+
+
+  <script src="./js/script.js"></script>
+  <script src="./js/productos.js"></script>
+  <script src="./js/dinamico.js"></script>
+  <script src="./js/service_worker.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domicilios de Restaurante</title>
+  <link rel="stylesheet" href="/css/domicilio.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Restaurante - Domicilios</h1>
+    <nav>
+      <button id="menu-btn">Menú</button>
+      <button id="cart-btn">Carrito</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Vista del Menú -->
+    <section id="menu-view">
+      <h2>Menú</h2>
+      <div class="filters">
+        <button class="filter" data-region="Todos">Todos</button>
+        <button class="filter" data-region="Latinoamérica">Latinoamérica</button>
+        <button class="filter" data-region="Centroamérica">Centroamérica</button>
+        <button class="filter" data-region="Suramérica">Suramérica</button>
+      </div>
+      <div id="menu-items" class="menu-items"></div>
+    </section>
+
+    <!-- Vista del Carrito -->
+    <section id="cart-view" style="display: none;">
+      <h2>Carrito de Compras</h2>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-total">
+        <strong>Total:</strong> <span id="cart-total">$0.00</span>
+      </div>
+      <button id="back-to-menu">Volver al Menú</button>
+      <button id="checkout-btn">Proceder al Pedido</button>
+    </section>
+
+    <!-- Vista del Formulario de Domicilio -->
+    <section id="checkout-view" style="display: none;">
+      <h2>Formulario de Domicilio</h2>
+      <form id="checkout-form">
+        <label>
+          Nombre:
+          <input type="text" id="customer-name" required>
+        </label>
+        <label>
+          Dirección:
+          <input type="text" id="customer-address" required>
+        </label>
+        <label>
+          Teléfono:
+          <input type="tel" id="customer-phone" required>
+        </label>
+        <button type="submit">Confirmar Pedido</button>
+      </form>
+      <button id="cancel-checkout">Cancelar</button>
+    </section>
+  </main>
+
+  <script src="/js/domicilio.js"></script>
+</body>
+</html>

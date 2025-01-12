@@ -1,0 +1,57 @@
+{
+    
+    "short_name": "blackMenu",
+    "name": " app restaurante",
+    "icons": [
+        {
+            "src": "/public/imagen/grupoafro.jpg",
+            "sizes": "1024x654",
+            "type": "image/gif"
+        },
+        {
+            "src": "/public/imagen/letra.PNG",
+            "sizes": "417x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/imagen/atom.PNG",
+            "sizes": "157x154",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/imagen/mujer1.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+       
+    ],
+    "screenshots": [
+        {
+            "src": "/public/imagen/icon-480x800.jpg",
+            "sizes": "480x800",
+            "type": "image/jpg",
+            "form_factor": "narrow"
+          },
+      {
+        "src": "/public/imagen/icon-1280x720.jpg",
+        "sizes": "1280x720",
+        "type": "image/jpg",
+        "form_factor": "wide"
+      }
+      
+    ],
+    "start_url": "index.html",
+    "background_color": "#f9d627",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#f9d627",
+    "description": "Esta es una aplicacion para restaurantes con platos mixto del mundo y para el mundo "
+  }
+  
+
+
+
+
+  
+
+  

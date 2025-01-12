@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante - Pedidos</title>
+  <link rel="stylesheet" href="/css/domicilio.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Restaurante Latinoamericano</h1>
+  </header>
+
+  <main>
+    <!-- Vista del Menú -->
+    <section id="menu-section">
+      <h2>Menú</h2>
+      <div class="filters">
+        <button class="filter" data-region="Todos">Todos</button>
+        <button class="filter" data-region="Latinoamérica">Latinoamérica</button>
+        <button class="filter" data-region="Centroamérica">Centroamérica</button>
+        <button class="filter" data-region="Suramérica">Suramérica</button>
+      </div>
+      <div id="menu-items" class="menu-items"></div>
+    </section>
+
+    <!-- Formulario de Pedido -->
+    <section id="order-section">
+      <h2>Formulario de Pedido</h2>
+      <form id="order-form">
+        <label>
+          Selecciona un plato:
+          <select id="dish-select" required>
+            <option value="" disabled selected>Selecciona un plato</option>
+          </select>
+        </label>
+        <label>
+          Nombre:
+          <input type="text" id="customer-name" placeholder="Tu nombre" required>
+        </label>
+        <label>
+          Dirección:
+          <input type="text" id="customer-address" placeholder="Tu dirección" required>
+        </label>
+        <label>
+          Teléfono:
+          <input type="tel" id="customer-phone" placeholder="Tu teléfono" required>
+        </label>
+        <button type="submit">Realizar Pedido</button>
+      </form>
+    </section>
+
+    <!-- Confirmación de Pedido -->
+    <section id="confirmation-section" style="display: none;">
+      <h2>Pedido Confirmado</h2>
+      <p>¡Gracias por tu pedido!</p>
+      <button id="back-to-menu">Volver al Menú</button>
+    </section>
+  </main>
+
+  <script src="/js/domicilio.js"></script>
+</body>
+</html>

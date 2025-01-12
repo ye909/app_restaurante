@@ -1,0 +1,151 @@
+.container_header_card{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 14px;
+    }
+
+.shopping{
+    cursor: pointer;
+}
+
+/* 
+.conta{
+    max-width: 16%;
+     background:rgba(8, 8, 8,0.6);
+     max-height: 40vh;
+ }
+ 
+ .container_prod{
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+   gap: 24px;
+    
+ } 
+ h1{
+     padding: 10px;
+ }
+ 
+ 
+ 
+ .titulo1{
+     padding: 20px ;
+ text-align: center;
+     color:yellow;
+ }
+
+ 
+ .titulo{
+     background-image:linear-gradient(to left, rgb(4, 151, 4), rgb(248, 244, 7));
+     -webkit-text-fill-color:transparent; 
+     -webkit-background-clip: text;
+     background-clip: text;
+     text-align: center;
+  
+ }
+
+
+ 
+ 
+ .productList {
+     list-style-type: none;
+     padding: 0;
+ }
+ 
+ .productList li {
+     padding: 10px;
+     border-bottom: 1px solid #ccc;
+ }
+ 
+ .productList li:last-child {
+     border-bottom: none;
+ }
+ .container_header_card img{
+     width: 70px;
+ }
+  */
+  .shopping{
+    font-size: 40px;
+cursor: pointer;
+}
+.buscar::placeholder{
+    color:rgb(232, 248, 3);
+    font-size: 14px;
+}
+
+.buscar {
+    width: 40%;
+    height: 1.9vh;
+    background:transparent;
+    color:white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+:is(.bienvenida,
+ .buscar){
+     padding: 8px;
+ }
+ .bienvenida{
+    background-image:linear-gradient(to left, rgb(4, 151, 4), rgb(248, 244, 7),  red,rgb(14, 14, 240));
+    -webkit-text-fill-color:transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+ 
+    
+}
+
+
+
+ 
+
+  <h1 class="bienvenida" id="bienvenida">BIENVENIDOS/A</h1>
+  <nav>
+    <ul>
+      <li id="menu-btn"> Menu</li>
+      <li></li>
+      </li>
+      <li><a href="./public/templeis/domicilio.html" target="_blank">Domicilio</a></li>
+      <li><a href="./public/templeis/reserva.html" target="_blank">Reserva</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="./public/templeis/login.html" target="_blank">Inicio</a></li>
+      <li><a href="#somos">Quiénes Somos</a></li>
+      <li><a href="./public/templeis/registro.html" target="_blank">Registro</a> </li>
+    </ul>
+  </nav>
+
+
+  <main id="menu-view" class="menu-view">
+    <div class="filter-buttons">
+      <button class="filter" data-region="Todos">Todos</button>
+      <button class="filter" data-region="Latinoamérica">Latinoamérica</button>
+      <button class="filter" data-region="Centroamérica">Centroamérica</button>
+      <button class="filter" data-region="Suramérica">Suramérica</button>
+    </div>
+    <div id="menu-items" class="menu-items"></div>
+    <audio id="clickSound" src="./public/audio/mouse_btn3.mp3"></audio>
+    <div><h1>aaas</h1></div>
+  </main>
+
+  <div id="cart-view" style="display: none;">
+    <h2>Carrito de Compras</h2>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-total">
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="back-to-menu">Volver al Menú</button>
+    </div>
+  </div>
+
+</main>
+
+
+
+
+

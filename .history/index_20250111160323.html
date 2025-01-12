@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Restaurante</h1>
+    <nav>
+      <button id="menu-btn">Menú</button>
+      <button id="cart-btn">Carrito</button>
+    </nav>
+  </header>
+
+  <main id="menu-view">
+    <div class="filter-buttons">
+      <button class="filter" data-region="Todos">Todos</button>
+      <button class="filter" data-region="Latinoamérica">Latinoamérica</button>
+      <button class="filter" data-region="Centroamérica">Centroamérica</button>
+      <button class="filter" data-region="Suramérica">Suramérica</button>
+    </div>
+    <div id="menu-items" class="menu-items"></div>
+    <div><h1>aaas</h1></div>
+  </main>
+
+  <main id="cart-view" style="display: none;">
+    <h2>Carrito de Compras</h2>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-total">
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="back-to-menu">Volver al Menú</button>
+    </div>
+  </main>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/productos.js"></script>
+</body>
+</html>

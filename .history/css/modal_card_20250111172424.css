@@ -1,0 +1,109 @@
+
+.cart-view{
+    /* display: none; */
+    width: 100%;
+    background:red;
+     }
+     /* .menu-items, .cart-items {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+       gap: 20px;
+       margin: 20px;
+     } */
+     
+     .card {
+        width: 15%;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+     }
+     
+     .card img {
+       width: 100%;
+       height: 150px;
+       object-fit: cover;
+       border-radius: 5px;
+     }
+     
+     .card button {
+       margin-top: 10px;
+       background-color: #007bff;
+       color: white;
+       border: none;
+       padding: 10px;
+       border-radius: 5px;
+       cursor: pointer;
+     }
+     
+     .card button:hover {
+       background-color: #0056b3;
+     }
+     
+     .cart-total {
+       text-align: right;
+       margin: 20px;
+     }
+     
+     .cart-total button {
+       background-color: #007bff;
+       color: white;
+       border: none;
+       padding: 10px 15px;
+       cursor: pointer;
+       border-radius: 5px;
+     }
+     
+     .cart-total button:hover {
+       background-color: #0056b3;
+     }
+     
+
+
+/* ntainer_fondo_card {
+    width: 100%;
+    background: rgba(226, 225, 231, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    position: fixed;
+    margin: 4px;
+    color: white;
+    display: none;
+    overflow: scroll;
+  }
+  
+  .modal-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .ventana_modal {
+     
+  
+  }
+  .modal-header img {
+    width: 50px;
+  }
+  .btnclose {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modal-foote {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    z-index: 2;
+  }
+  .img_modal{
+      object-fit: cover;
+      width: 90px;
+      border-radius:4px;
+  }
+  
+  
+  
+   */

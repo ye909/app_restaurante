@@ -1,0 +1,135 @@
+ntainer_fondo_card {
+    width: 100%;
+    background: rgba(226, 225, 231, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    position: fixed;
+    margin: 4px;
+    color: white;
+    display: none;
+    overflow: scroll;
+  }
+  
+  .modal-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .ventana_modal {
+      width: 15%;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+  
+  }
+  .modal-header img {
+    width: 50px;
+  }
+  .btnclose {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modal-foote {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    z-index: 2;
+  }
+  .img_modal{
+      object-fit: cover;
+      width: 90px;
+      border-radius:4px;
+  }
+  
+  
+  
+  
+  
+  
+  /*
+  
+    
+  
+  .close{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px;
+  }
+  .container_modal_card{
+      display: none;
+      position: fixed;
+      width: 100%;
+    
+  }
+  
+  
+  #shopping{
+      cursor: pointer;
+      font-size: 30px;
+  }
+  
+  
+  
+  .delete:hover{
+      background:red;
+      border-radius:none;
+  } */
+  
+  /* .modal-body{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin:0px 60px;
+      width: 90%;
+  }
+  .texto_parafo{
+      color: yellow;
+      text-shadow: rgb(3, 1, 17) 4px 2px 2px ;
+  }
+  .container_reserva{
+      text-align: center;
+     
+  }
+  .ventana_modal{
+      text-align: center;
+      background:rgba(7, 7, 7, 0.3);
+  padding: 10px;
+  margin: 10px;
+  width: 18%;
+  border-radius: 10px;
+  
+  box-shadow: blue 1px 1px 1px  2px ;
+  }
+  .ventana_modal p{
+      color:white;
+      font-size: 16px;
+  }
+  .modal_titulo{
+      color:yellow;
+      padding: 10px;
+  }
+  .ventana_modal button{
+      width: 100px;
+      padding: 7px;
+      background:transparent;
+      color:white;
+      border-radius:15px;
+  
+  }
+  .ventana_modal button:hover{
+      background:black;
+      box-shadow: blue 1px 1px 1px  1px ;
+  }
+  
+  
+  
+   */
+  

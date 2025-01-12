@@ -1,0 +1,30 @@
+
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurant App</h1>
+        <button id="view-cart-btn">Ver Carrito (0)</button>
+    </header>
+
+    <div class="region-buttons">
+        <button class="region-btn" data-region="Todos">Todos</button>
+        <button class="region-btn" data-region="Latinoamérica">Latinoamérica</button>
+        <button class="region-btn" data-region="Centroamérica">Centroamérica</button>
+        <button class="region-btn" data-region="Norteamérica">Norteamérica</button>
+    </div>
+
+    <main>
+        <div id="menu-container"></div>
+        <div id="cart-container" style="display: none;"></div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

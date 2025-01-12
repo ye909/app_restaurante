@@ -1,0 +1,70 @@
+.container_header_card{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 14px;
+    }
+
+ .productList {
+     list-style-type: none;
+     padding: 0;
+ }
+ 
+ .productList li {
+     padding: 10px;
+     border-bottom: 1px solid #ccc;
+ }
+ 
+ .productList li:last-child {
+     border-bottom: none;
+ }
+
+  .container_header_card img{
+    width: 70px;
+}
+  .shopping{
+    font-size: 40px;
+cursor: pointer;
+}
+.buscar::placeholder{
+    color:rgb(232, 248, 3);
+    font-size: 14px;
+}
+
+.buscar {
+    width: 40%;
+    height: 2.9vh;
+    background:transparent;
+    color:white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+:is(.bienvenida,
+ .buscar){
+     padding: 8px;
+ }
+ .bienvenida{
+    background-image:linear-gradient(to left, rgb(4, 151, 4), rgb(248, 244, 7),  red,rgb(14, 14, 240));
+    -webkit-text-fill-color:transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+ 
+    
+}
+
+
+
+ 
+
+  
+
+
+
+
+
+
+

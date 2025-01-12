@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/heder.css">
+  <link rel="stylesheet" href="./css/opcion_menu.css">
+  <link rel="stylesheet" href="./css/modal_card.css">
+</head>
+<body>
+ 
+
+  <header>
+    <div class="container_header_card">
+      <div class="imagen"><img src="/public/imagen/login.gif" alt=""></div>
+
+      <input type="text" id="buscar" class="buscar" placeholder="Busque sus Platos...">
+      <ul id="productList" class="productList"></ul>
+
+      <div id="cart-btn" class="shopping">🛒</div>
+     
+  </header>
+
+  <h1 class="bienvenida" id="bienvenida">BIENVENIDOS/A</h1>
+  <nav>
+    <ul>
+      <li id="menu-btn"> Menu</li>
+      <li></li>
+      </li>
+      <li><a href="./public/templeis/domicilio.html" target="_blank">Domicilio</a></li>
+      <li><a href="./public/templeis/reserva.html" target="_blank">Reserva</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="./public/templeis/login.html" target="_blank">Inicio</a></li>
+      <li><a href="#somos">Quiénes Somos</a></li>
+      <li><a href="./public/templeis/registro.html" target="_blank">Registro</a> </li>
+    </ul>
+  </nav>
+
+  <main id="menu-view" class="menu-view">
+    <div class="filter-buttons">
+      <button class="filter" data-region="Todos">Todos</button>
+      <button class="filter" data-region="Latinoamérica">Latinoamérica</button>
+      <button class="filter" data-region="Centroamérica">Centroamérica</button>
+      <button class="filter" data-region="Suramérica">Suramérica</button>
+    </div>
+    <div id="menu-items" class="menu-items"></div>
+    <div><h1>aaas</h1></div>
+    <audio id="clickSound" src="./public/audio/mouse_btn3.mp3"></audio>
+  </main>
+
+  <main id="cart-view" >
+    <h2>Carrito de Compras</h2>
+
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-total">
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="back-to-menu">Volver al Menú</button>
+    </div>
+  </main>
+
+  <div class="container quienes-somos" id="somos">
+    <h1>Quiénes Somos</h1>
+    <p>En <strong>Gostriafromix</strong>, somos un restaurante apasionado por la buena comida y el servicio de calidad.
+      <br>
+      Fundado con el propósito de ofrecer una experiencia gastronómica única, combinamos ingredientes frescos con
+      recetas innovadoras para crear platos que deleitan el paladar. <br>
+      Nuestro equipo está compuesto por chefs experimentados y personal dedicado que trabaja día a día para hacer que
+      cada visita sea inolvidable.
+    </p>
+    <p>Nuestro objetivo es brindarte un ambiente acogedor donde puedas disfrutar de momentos especiales, ya sea con
+      amigos, familiares o en una ocasión especial. Te invitamos a
+      visitarnos y descubrir por qué somos el lugar preferido por los amantes de la buena comida.</p>
+  </div>
+
+  
+<footer>
+  <div class="conataine_footer">
+    <div>
+      <h4>Servicio al ciudadano</h4>
+      <p><span>L</span>ínea directa <br> <br> (601) 2773555</p>
+      <p id="domicilio"><span>S</span>ervicios ha domicilio<br> <br>328866178 <br><br>Dirreccion calle 12# 43-23 sur
+      </p>
+
+    </div>
+
+    <div>
+      <h4>Lineas de atencion</h4>
+      <p><span>E</span>n Bogotá, <br> desde fijo o celular, al <br><br>
+        (601) 307 70 51 <br><br>
+        01 8000 930100 <br><br>
+        <span>D</span>esde celular marca <br><br>
+        #961
+      </p>
+    </div>
+    <div>
+      <h4>Redes</h4>
+      <div><a href=""><i class="fa-brands fa-facebook"> </i></a> Facebook</div>
+      <div><a href=""><i class="fa-brands fa-twitter"></i></a>Twitter</div>
+      <div><a href=""><i class="fa-brands fa-linkedin"></i> </a>Linkedin</div>
+      <div><a href=""><i class="fa-brands fa-instagram"></i></a> Instagram</div>
+    </div>
+    <div>
+      <h4 id="contacto">Contacto</h4>
+      <p><span>D</span>irección Nacional<br><br>
+        <span>C</span>arrera 85K No. 46A-66<br><br>
+        <span>b</span>ogotá D.C., Colombia<br><br>
+        <span>T</span>eléfono administrativo<br><br>
+        (60)1 419 3000
+      </p>
+    </div>
+
+    <div>
+      <h4> Canales de atención</h4>
+      <p><a href="#">Preguntas frecuentes</p></a><br>
+      <p><a href="#">Escríbe tu PQRS</p></a><br>
+      <p><a href="#">Nuestras sedes</p></a>
+    </div>
+  </div>
+</footer>
+<div class="container_final">2024 Bogota Colombia D.C</div>
+
+
+  <script src="./js/script.js"></script>
+  <script src="./js/productos.js"></script>
+  <script src="./js/dinamico.js"></script>
+</body>
+</html>

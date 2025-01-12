@@ -1,0 +1,117 @@
+
+html {
+    scroll-behavior: smooth;
+    background-image: url(../public/imagen/fondo_card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: auto;
+  } 
+.container {
+    max-width: 450px;
+    margin: 100px 700px;
+    background:rgba(14, 13, 13,0.3);
+    box-shadow: rgb(7, 71, 236)  1px 1px 1px 2px,rgb(7, 71, 236) 1px  1px 1px 2px;
+    padding: 20px;
+    border-radius: 8px;
+  
+}
+.form{
+  padding: 10px;
+  margin-left: 30px;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  ::placeholder{
+    font-size: 20px;
+  }
+  input:focus{
+   
+  outline: 1px solid #007BFF;
+  background:transparent;
+  color:white;
+  }
+  input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  #hora{
+    width: 60%;
+  }
+  
+  .inline-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .inline-group > div {
+    flex: 1;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+
+.submit-button {
+  width: 86%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+} 
+
+/*crear la animacion donde el mensaje salga de ariba asta el centro de la panta */
+
+.container_modal_reserva{
+  transition: 2s;
+  max-width: 450px;
+  margin: 100px 700px;
+  background:rgba(14, 13, 13,0.3);
+  box-shadow: rgb(7, 71, 236)  1px 1px 1px 2px,rgb(7, 71, 236) 1px  1px 1px 2px;
+  padding: 20px;
+  border-radius: 8px;
+ opacity: 0;
+  
+}
+h1 {
+  color: #007bff;
+  text-align: center;
+}
+p {
+  line-height: 1.4;
+  font-size: 24px;
+}
+.mensaje{
+  text-align: center;
+  font-weight: bolder;
+} 
+.validar_nombre{
+    font-size: 30px;
+    color: white;
+    text-shadow: rgb(7, 71, 236)  1px 1px 1px 2px,rgb(7, 71, 236) 1px  1px 1px 2px;
+}

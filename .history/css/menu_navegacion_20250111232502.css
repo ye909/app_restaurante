@@ -1,0 +1,39 @@
+
+
+ul{
+display: flex;
+justify-content: space-between;
+text-align: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+li{
+    font-size: 30px;
+    list-style: none;
+margin: 10px;
+
+}
+.imgRestaurante {
+    width: 100%;
+    height: 50vh;
+    background:transform 0.4px;
+  }
+a{
+    
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+}
+li:hover{
+    transition: 1s ease , transform 1s ease;
+    border-bottom: 2px solid yellow;
+   
+    
+}
+nav a{
+    background-image:linear-gradient(to left, rgb(248, 244, 7),  red);
+    -webkit-text-fill-color:transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+}

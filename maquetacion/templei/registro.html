@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/reserva.css">
+  <title>Document</title>
+</head>
+
+<body>
+ 
+
+  <div class="container" id="container">
+
+    <h2 class="title">Registrate ya🎉</h2>
+    <form id="form_cliente" class="form">
+      <div class="form-group">
+        <label for="nombre">Nombres</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre compreto">
+      </div>
+      <div class="form-group">
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su Correo">
+      </div>
+
+      <div class="form-group inline-group">
+        <div>
+          <label for="telefono">Telefono</label>
+          <input type="text" id="telefono" name="telefono">
+
+          <div class="form-group">
+            <label for="Ciudad">Lugar de contacto</label>
+            <input type="number" id="Ciudad" name="Ciudad" min="1" placeholder="Ingrese su Ciudad">
+          </div>
+          <div class="form-group">
+            <label for="comentarios">Comentarios</label>
+            <textarea id="comentarios" name="comentarios" rows="3"></textarea>
+          </div>
+          <button class="submit-button" id="submit-button">Enviar Reserva</button>
+    </form>
+  </div>
+
+
+
+
+
+  <script src="/js/reserva.js"></script>
+</body>
+
+</html>
