@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .hero button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Menú de Comida */
+        .menu-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .menu-item {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .menu-item h3 {
+            margin: 10px 0;
+        }
+
+        .menu-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Reseñas de Clientes */
+        .reviews-section {
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .review-card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .review-card p {
+            font-style: italic;
+            color: #555;
+        }
+
+        .review-card span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="https://via.placeholder.com/100" alt="Logo del Restaurante">
+        <div class="nav-links">
+            <a href="#menu">Menú</a>
+            <a href="#reviews">Reseñas</a>
+            <a href="#contact">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Bienvenido a nuestro Restaurante</h1>
+        <p>Disfruta de los mejores platillos preparados con amor.</p>
+        <button>Ver Menú</button>
+    </section>
+
+    <!-- Menú de Comida -->
+    <section id="menu" class="menu-section">
+        <h2>Nuestros Platillos Populares</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250" alt="Plato 1">
+                <h3>Pasta Alfredo</h3>
+                <p>Deliciosa pasta con salsa cremosa.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250" alt="Plato 2">
+                <h3>Hamburguesa Clásica</h3>
+                <p>Jugosa hamburguesa con queso y tocino.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250" alt="Plato 3">
+                <h3>Sushi Variado</h3>
+                <p>Sushi fresco con ingredientes premium.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reseñas de Clientes -->
+    <section id="reviews" class="reviews-section">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="review-grid">
+            <div class="review-card">
+                <p>"¡La comida es increíble! Volveré pronto."</p>
+                <span>- Juan Pérez</span>
+            </div>
+            <div class="review-card">
+                <p>"El servicio fue rápido y amable. ¡Recomendado!"</p>
+                <span>- María López</span>
+            </div>
+            <div class="review-card">
+                <p>"Los postres son simplemente deliciosos."</p>
+                <span>- Ana Gómez</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Restaurante. Todos los derechos reservados.</p>
+        <p>
+            Contáctenos: 
+            <a href="mailto:info@restaurante.com">info@restaurante.com</a> | 
+            <a href="tel:+123456789">+123 456 789</a>
+        </p>
+        <p>
+            Síguenos en: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+</html>

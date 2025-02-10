@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación por SMS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
+        .form-container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Confirmación por SMS</h2>
+        <form id="smsForm">
+            <input type="text" id="phoneNumber" placeholder="Número de teléfono (Ej: +123456789)" required>
+            <input type="submit" value="Enviar Código">
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('smsForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const phoneNumber = document.getElementById('phoneNumber').value;
+
+            // Enviar el número al servidor para procesar el envío del SMS
+            fetch('/send-sms', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ phoneNumber })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Código enviado correctamente. Verifica tu teléfono.');
+                    window.location.href = '/verify-code'; // Redirige a la página de verificación
+                } else {
+                    alert('Error al enviar el código. Inténtalo de nuevo.');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+    <script src="/js/servidorSMS"></script>
+</body>
+</html>
